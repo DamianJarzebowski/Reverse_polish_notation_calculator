@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class CalculatorServiceTest {
 
-    public CalculatorService sut = new CalculatorService();
+    private CalculatorService sut = new CalculatorService();
 
     @Test
     public void shouldWorkWithEmptyString() {
